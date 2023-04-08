@@ -1,26 +1,63 @@
-# SortItOut
-Brief Introduction
+# README for "Sort It Out" Game
 
-This project is digits sorting game. This game name is “Sort It Out”. In our game, there is 4x4 matrix. The matrix consists of 15 digits from 1 to 15 arranged randomly. We did not add 16 numbers because one space is left empty for moving and swapping the digits. The player has to arrange the digits in ascending order from 1 to 4 in 1st row, 5 to 8 in 2nd row, 9 to 12 in 3rd row and 13 to 15 in 4th row using keys from keyboard. If the player sort all the 15 digits in ascending order, he/she will win otherwise lose. The player cannot move the digits diagonally. There are three difficulty levels in our game; easy, medium and hard. In easy level, there are 400 moves. In medium level, there are 300 moves. And in hard level, there are 200 moves. The player will have to sort all the digits within given moves, otherwise he/she will lose. We have also added graphics in our game.
+## Introduction
 
-How to Play?
+"Sort It Out" is a digits sorting game based on a 4x4 matrix. The matrix consists of 15 digits, from 1 to 15, arranged randomly with one empty space for moving and swapping digits. The player has to arrange the digits in ascending order, with a limited number of moves based on the selected difficulty level. The game includes easy, medium, and hard difficulty levels with 400, 300, and 200 moves, respectively.
 
-	Press any key to continue
+## How to Play
 
-	Press ‘1’ for help or press ‘2’ to play
+1. Press any key to continue
+2. Press '1' for help or press '2' to play
+3. Choose the difficulty level
+4. Move and sort the digits by pressing the following keys:
+    - 'w' for up
+    - 's' for down
+    - 'a' for left
+    - 'd' for right
+5. If the player arranges all the digits in ascending order within the given moves, they win; otherwise, they lose.
+6. Press 'y' to play again or press 'n' to exit
 
-	Choose difficulty level
+## How to Run "Sort It Out" (C++ Program)
 
-	Move and sort the digits by pressing following keys:
+### Prerequisites
 
-•	‘w’ for up
+1. Make sure you have a C++ compiler installed on your system (such as GCC, Clang, or Visual Studio).
+2. Download or clone the "Sort It Out" project source code.
 
-•	‘s’ for down
+### Compile and Run
 
-•	‘a’ for left
+#### For Linux or macOS:
 
-•	‘d’ for right
+1. Open a terminal window and navigate to the directory containing the "SORT IT OUT.cpp" file.
+2. Run the following command to compile the program:
 
-	If the player arrange all the digits ascendingly within given moves, he/she will win otherwise lose
+```bash 
+g++ -o SortItOut "SORT IT OUT.cpp" 
+```
 
-	Press ‘y’ to play again or press ‘n’ to exit
+3. Run the compiled program with the following command:
+
+```bash
+ ./SortItOut 
+```
+
+#### For Windows:
+
+1. Open a Command Prompt window and navigate to the directory containing the "SORT IT OUT.cpp" file.
+2. Run the following command to compile the program with the GCC compiler:
+
+```bash 
+g++ -o SortItOut "SORT IT OUT.cpp" 
+```
+
+3. Run the compiled program with the following command:
+
+```bash 
+SortItOut.exe 
+```
+
+*Note: If you are using a different compiler, please refer to the compiler documentation for the appropriate compilation and execution commands.
+
+## Contributing
+
+We welcome any contributions, bug reports, or feature requests for the "Sort It Out" game. Please submit a pull request or open an issue on the project's repository.
